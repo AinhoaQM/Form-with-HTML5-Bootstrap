@@ -10,7 +10,7 @@
   <body>
     <div class="container-fluid">
       <div class="row m-5">
-          <div class="col-md-12 border border-secondary p-2 px-4 border-opacity-25 rounded">
+          <div class="col-md-12 border border-bottom-0 border-secondary p-2 px-4 border-opacity-25 rounded">
             <h1>Payment Form</h1>
           </div>
           <div class="col-md-12 border border-secondary p-4 border-opacity-25 rounded"> 
@@ -105,11 +105,19 @@
               <div class="col-md-6">
                 <label class="form-label">We Accept:</label>
                 <div>
-                  <div class="d-inline-block bg-secondary p-1 rounded form-control-lg"> 
+                  <div class="d-inline-block bg-secondary text-light p-1 rounded form-control-lg p-2"> 
+                      <div class="d-inline-block pe-4">
                       <input type="radio" name="creditCard" required> <i class="fa-brands fa-cc-mastercard fa-lg"></i>
+                      </div>
+                      <div class="d-inline-block pe-4">
                       <input type="radio" name="creditCard"> <i class="fa-brands fa-cc-visa fa-lg"></i>
+                      </div>
+                      <div class="d-inline-block pe-4">
                       <input type="radio" name="creditCard"> <i class="fa-brands fa-cc-amex fa-lg"></i>
+                      </div>
+                      <div class="d-inline-block pe-4">
                       <input type="radio" name="creditCard"> <i class="fa-brands fa-cc-diners-club fa-lg"></i>
+                      </div>
                   </div>
                 </div>
               </div>
@@ -120,7 +128,7 @@
               </div>
             </form>
           </div>
-          <div class="col-md-12 border border-secondary p-3 px-4 border-opacity-25 rounded">
+          <div class="col-md-12 border border-top-0 border-secondary p-3 px-4 border-opacity-25 rounded">
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <button class="btn btn-secondary me-md-2">Cancel</button>
               <button type="submit" value="Send Form" class="btn btn-primary">Send</button>
