@@ -8,14 +8,13 @@
     <title>HTML5 Form</title>
   </head>
   <body>
-    <div class="container-fluid ">
-      <div class="row">
-          <div class="col-md-12">
+    <div class="container-fluid">
+      <div class="row m-5">
+          <div class="col-md-12 border border-secondary p-2 px-4 border-opacity-25 rounded">
             <h1>Payment Form</h1>
           </div>
-          <div class="col-md-12"> 
+          <div class="col-md-12 border border-secondary p-4 border-opacity-25 rounded"> 
             <div class="alert alert-danger" role="alert">Some fields are missing</div>
-            
             <form class="row g-3">
               <div class="col-md-4">
                 <label for="card" class="form-label">Card #</label>
@@ -119,13 +118,13 @@
                 <textarea class="form-control" id="message" maxlength="200"> </textarea>
                 <p class="text-muted"> <small>Add any note here.</small></p>
               </div>
-              <div class="col-md-12">
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                  <button class="btn btn-secondary me-md-2">Cancel</button>
-                  <button type="submit" value="Send Form" class="btn btn-primary">Send</button>
-                </div>
-              </div>
             </form>
+          </div>
+          <div class="col-md-12 border border-secondary p-3 px-4 border-opacity-25 rounded">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-secondary me-md-2">Cancel</button>
+              <button type="submit" value="Send Form" class="btn btn-primary">Send</button>
+            </div>
           </div>
         </div>
       </div>
